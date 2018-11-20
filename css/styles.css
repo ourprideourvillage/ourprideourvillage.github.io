@@ -102,6 +102,10 @@ html,body{
 .subtitle{
     font-size: 2em;text-transform: uppercase;font-family: 'LeagueMonoUltraLight';display: inline-block;width:100%;text-align: left;
 }
+@media (max-device-height: 800px) {
+    .iframe-holder{ margin-top:10px;}
+
+    }
 @media (max-device-width: 750px) {
     html,body{
         min-width: 0px;
@@ -127,5 +131,6 @@ iframe{
     padding-left:5px;
 }
 }
+
 
 
