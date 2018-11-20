@@ -1,0 +1,131 @@
+/*@font-face {
+    font-family: "ChunkFive";
+    src: url("webfonts/ChunkFive-Regular.eot");
+    src: 
+    url("webfonts/ChunkFive-Regular.woff") format("woff"),
+    url("webfonts/ChunkFive-Regular.woff2") format("woff2");
+
+}
+
+@font-face {
+    font-family: "LeagueMonoRegular";
+    src: url("webfonts/LeagueMono-Regular.eot");
+    src: 
+    url("webfonts/LeagueMono-Regular.woff") format("woff"),
+    url("webfonts/LeagueMono-Regular.woff2") format("woff2");
+
+}*/
+@font-face {
+    font-family: "LeagueMonoBold";
+    src: url("webfonts/LeagueMono-Bold.eot");
+    src: 
+    url("webfonts/LeagueMono-Bold.woff") format("woff"),
+    url("webfonts/LeagueMono-Bold.woff2") format("woff2");
+
+}
+/*@font-face {
+    font-family: "LeagueMonoExtraBold";
+    src: url("webfonts/LeagueMono-ExtraBold.eot");
+    src: 
+    url("webfonts/LeagueMono-ExtraBold.woff") format("woff"),
+    url("webfonts/LeagueMono-ExtraBold.woff2") format("woff2");
+
+}
+@font-face {
+    font-family: "LeagueMonoThin";
+    src: url("webfonts/LeagueMono-Thin.eot");
+    src: 
+    url("webfonts/LeagueMono-Thin.woff") format("woff"),
+    url("webfonts/LeagueMono-Thin.woff2") format("woff2");
+
+}
+@font-face {
+    font-family: "LeagueMonoLight";
+    src: url("webfonts/LeagueMono-Light.eot");
+    src: 
+    url("webfonts/LeagueMono-Light.woff") format("woff"),
+    url("webfonts/LeagueMono-Light.woff2") format("woff2");
+
+}*/
+@font-face {
+    font-family: "LeagueMonoUltraLight";
+    src: url("webfonts/LeagueMono-UltraLight.eot");
+    src: 
+    url("webfonts/LeagueMono-UltraLight.woff") format("woff"),
+    url("webfonts/LeagueMono-UltraLight.woff2") format("woff2");
+
+}
+
+html,body{
+    font-family: 'LeagueMonoBold';
+    height:100%;
+    min-width: 750px;
+    width:100%;
+/*    overflow: hidden;
+*/    padding:0px;
+    margin:0px;
+    background: #561E57;
+
+}
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height:100%;
+  width: 100%;
+}
+.header{
+    flex:0 0 48px;
+    line-height: 48px;
+    font-size: 25px;
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.item{
+    display: flex;
+    flex:1 1 auto;
+    flex-direction: column;
+/*    justify-content: center;
+*/    align-items: center;
+    text-align: center;
+    background: url(../img/lioness.png) no-repeat center center fixed; 
+    background-size:cover;color:white;
+}
+.content-holder{
+    text-align: center;display: inline-block;padding-top:5%;
+}
+.iframe-holder{
+    margin-top:100px;
+}
+.subtitle{
+    font-size: 2em;text-transform: uppercase;font-family: 'LeagueMonoUltraLight';display: inline-block;width:100%;text-align: left;
+}
+@media (max-device-width: 750px) {
+    html,body{
+        min-width: 0px;
+        font-size:24px;
+    }
+    img{
+        width: 100%;
+    }
+    .iframe-holder{
+        width: 100%;
+        margin-top:15vh;
+    }
+    .content-holder{
+        padding-top:5vh;
+        width:90%;
+    }
+iframe{
+    width: 90% !important;
+    height: 35vh !important;
+}
+.subtitle{
+    text-align: left !important;
+    padding-left:5px;
+}
+}
+
+
